@@ -1,0 +1,8 @@
+{
+  "grid": {"Nx": 128, "Ny": 128, "Lx": 40, "Ly": 40},
+  "evolution": {"dt": 0.005, "steps": 1200, "sample_every": 100, "workers": 4},
+  "potential": {"kind": "slit", "barrier_height": 200, "barrier_width": 0.6, "slit_sep": 2.0, "slit_width": 0.35},
+  "initial": {"kind": "gaussian", "x0": -8, "y0": 0, "sigma_x": 1.0, "sigma_y": 2.5, "kx": 4, "ky": 0},
+  "checkpoint": {"dir": "run-slit/ck", "every": 200},
+  "output": {"dir": "run-slit/out"}
+}

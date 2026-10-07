@@ -1,0 +1,8 @@
+{
+  "grid": {"Nx": 64, "Ny": 64, "Lx": 24, "Ly": 24},
+  "evolution": {"dt": 0.005, "steps": 2000, "sample_every": 100, "workers": 4},
+  "potential": {"kind": "harmonic", "omega_x": 1, "omega_y": 1},
+  "initial": {"kind": "gaussian", "x0": 1.5, "y0": 0, "sigma_x": 0.7071, "sigma_y": 0.7071, "kx": 0, "ky": 0},
+  "checkpoint": {"dir": "run/ck", "every": 100},
+  "output": {"dir": "run/out"}
+}
