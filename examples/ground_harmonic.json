@@ -1,0 +1,10 @@
+{
+  "nx": 64, "ny": 64, "lx": 16, "ly": 16,
+  "mass": 1, "hbar": 1,
+  "dt": 0.02, "steps": 0,
+  "workers": 4,
+  "outputDir": "out/ground",
+  "potential": {"type": "harmonic", "omega": 1},
+  "initial": {"type": "gaussian", "x0": 1, "y0": 0.5, "sigma": 1.3},
+  "ground": {"tol": 1e-10, "maxSteps": 100000}
+}

@@ -1,0 +1,11 @@
+{
+  "nx": 64, "ny": 64, "lx": 20, "ly": 20,
+  "mass": 1, "hbar": 1,
+  "dt": 0.01, "steps": 200,
+  "workers": 4,
+  "outputDir": "out/run",
+  "snapshotEvery": 50,
+  "checkpointEvery": 50,
+  "potential": {"type": "harmonic", "omega": 1},
+  "initial": {"type": "gaussian", "x0": 2, "y0": 0, "sigma": 1, "kx": 0.5, "ky": 0}
+}
